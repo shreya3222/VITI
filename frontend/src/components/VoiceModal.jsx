@@ -1,7 +1,6 @@
 // src/components/VoiceModal.jsx
 import { useState } from "react";
 import { FiMic, FiMicOff, FiX } from "react-icons/fi";
-import * as chrono from "chrono-node";
 import { parseVoiceTranscript } from "../api/voice"; 
 
 export default function VoiceModal({ open, onClose, onCreateFromParsed }) {
